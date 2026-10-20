@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/ProtCom/Etherlab-SV/src_only_PCS/eth/rtl/taxi_xgmii_baser_dec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module taxi_xgmii_baser_dec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/ProtCom/Etherlab-SV/src_only_PCS/eth/rtl/taxi_xgmii_baser_enc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module taxi_xgmii_baser_enc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xgmii_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_driver.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_xgmii
+ERROR: [VRFC 10-2989] 'DRV_IDLE' is not declared [D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv:78]
+ERROR: [VRFC 10-2989] 'DRV_DATA' is not declared [D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv:80]
+ERROR: [VRFC 10-2989] 'DRV_DATA' is not declared [D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv:81]
+ERROR: [VRFC 10-2989] 'DRV_FRAME' is not declared [D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv:83]
+ERROR: [VRFC 10-2989] 'DRV_FRAME' is not declared [D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv:87]
+ERROR: [VRFC 10-2989] 'DRV_ILLEGAL' is not declared [D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv:91]
+ERROR: [VRFC 10-2989] 'DRV_IDLE' is not declared [D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv:96]
+ERROR: [VRFC 10-8530] module 'tb_xgmii' is ignored due to previous errors [D:/ProtCom/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv:3]
