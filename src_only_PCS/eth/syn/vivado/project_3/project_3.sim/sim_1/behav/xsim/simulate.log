@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+[35000] TB: Encolando transacciones de prueba...
+[35000] TB: Esperando a que el driver y el pipeline terminen...
+[35000] DRV got tr: XGMII_IDLE
+[67000] DRV got tr: XGMII_DATA
+[74000] DRV got tr: XGMII_FRAME
+[93000] DRV got tr: XGMII_FRAME
+[112000] DRV got tr: XGMII_ILLEGAL
+[118000] DRV got tr: XGMII_IDLE
+========================================
+[SCB] Checks=18 Errors=0
+[SCB] *** PASS ***
+========================================
+$finish called at time : 406400 ps : File "C:/Users/mauro/Documents/MC/Etherlab-SV/src_only_PCS/eth/verification/xgmii_tb.sv" Line 127
