@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../rtl/taxi_xgmii_baser_dec.sv" \
+"../../../../../../../rtl/taxi_xgmii_baser_enc.sv" \
+"../../../../../../../verification/xgmii_driv_doc.sv" \
+"../../../../../../../verification/xgmii_intf.sv" \
+"../../../../../../../verification/xgmii_top.sv" \
+"../../../../../../../verification/xgmii_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
