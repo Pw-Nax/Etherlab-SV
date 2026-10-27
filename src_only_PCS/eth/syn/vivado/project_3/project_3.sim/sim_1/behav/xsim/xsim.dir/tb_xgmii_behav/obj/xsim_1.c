@@ -163,7 +163,11 @@ void sensitize(char *dp)
 
 void simulate(char *dp)
 {
+<<<<<<< HEAD
 iki_register_root_pointers(12, 24968, -7,0,12984, 1,2, 0, 32,13168, 2,0,0,12800, 1,2, 0, 32,13904, 10,0,0,14640, 19,0,0,14456, 18,0,0,13720, 10,0,0,14088, 10,0,0,14824, 12,0,0,14272, 17,0,0,19264, -7,0) ; 
+=======
+iki_register_root_pointers(12, 12984, 1,2, 0, 32,12800, 1,2, 0, 32,13168, 2,0,0,13720, 10,0,0,14640, 19,0,0,14824, 12,0,0,14456, 18,0,0,13904, 10,0,0,14272, 17,0,0,14088, 10,0,0,19264, -7,0,24968, -7,0) ; 
+>>>>>>> 0c33aa91497ab1c615653adbb494b8f31e0463b0
 		iki_schedule_processes_at_time_zero(dp, "xsim.dir/tb_xgmii_behav/xsim.reloc");
 	// Initialize Verilog nets in mixed simulation, for the cases when the value at time 0 should be propagated from the mixed language Vhdl net
 	iki_execute_processes();
@@ -173,6 +177,7 @@ iki_register_root_pointers(12, 24968, -7,0,12984, 1,2, 0, 32,13168, 2,0,0,12800,
 
 }
 #include "iki_bridge.h"
+<<<<<<< HEAD
 void subprog_m_f66ade40_ac73870e_24() ;
 void subprog_m_f66ade40_ac73870e_35() ;
 void subprog_m_f66ade40_ac73870e_34() ;
@@ -188,6 +193,23 @@ void subprog_m_f66ade40_ac73870e_37() ;
 static char* ng120[] = {(void *)subprog_m_f66ade40_ac73870e_24};
 static char* ng170[] = {(void *)subprog_m_f66ade40_ac73870e_35, (void *)subprog_m_f66ade40_ac73870e_34, (void *)subprog_m_f66ade40_ac73870e_33, (void *)subprog_m_f66ade40_ac73870e_32, (void *)subprog_m_f66ade40_ac73870e_31, (void *)subprog_m_f66ade40_ac73870e_30, (void *)subprog_m_f66ade40_ac73870e_29, (void *)subprog_m_f66ade40_ac73870e_28, (void *)subprog_m_f66ade40_ac73870e_27, (void *)subprog_m_f66ade40_ac73870e_26};
 static char* ng180[] = {(void *)subprog_m_f66ade40_ac73870e_37};
+=======
+void subprog_m_f66ade40_a1f058d2_24() ;
+void subprog_m_f66ade40_a1f058d2_35() ;
+void subprog_m_f66ade40_a1f058d2_34() ;
+void subprog_m_f66ade40_a1f058d2_33() ;
+void subprog_m_f66ade40_a1f058d2_32() ;
+void subprog_m_f66ade40_a1f058d2_31() ;
+void subprog_m_f66ade40_a1f058d2_30() ;
+void subprog_m_f66ade40_a1f058d2_29() ;
+void subprog_m_f66ade40_a1f058d2_28() ;
+void subprog_m_f66ade40_a1f058d2_27() ;
+void subprog_m_f66ade40_a1f058d2_26() ;
+void subprog_m_f66ade40_a1f058d2_37() ;
+static char* ng120[] = {(void *)subprog_m_f66ade40_a1f058d2_24};
+static char* ng170[] = {(void *)subprog_m_f66ade40_a1f058d2_35, (void *)subprog_m_f66ade40_a1f058d2_34, (void *)subprog_m_f66ade40_a1f058d2_33, (void *)subprog_m_f66ade40_a1f058d2_32, (void *)subprog_m_f66ade40_a1f058d2_31, (void *)subprog_m_f66ade40_a1f058d2_30, (void *)subprog_m_f66ade40_a1f058d2_29, (void *)subprog_m_f66ade40_a1f058d2_28, (void *)subprog_m_f66ade40_a1f058d2_27, (void *)subprog_m_f66ade40_a1f058d2_26};
+static char* ng180[] = {(void *)subprog_m_f66ade40_a1f058d2_37};
+>>>>>>> 0c33aa91497ab1c615653adbb494b8f31e0463b0
 void relocate(char *);
 
 void sensitize(char *);

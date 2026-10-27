@@ -2,7 +2,11 @@
 sv xil_defaultlib  \
 "../../../../../../../rtl/taxi_xgmii_baser_dec.sv" \
 "../../../../../../../rtl/taxi_xgmii_baser_enc.sv" \
+<<<<<<< HEAD
 "../../../../../../../verification/xgmii_driv_doc.sv" \
+=======
+"../../../../../../../verification/xgmii_driver.sv" \
+>>>>>>> 0c33aa91497ab1c615653adbb494b8f31e0463b0
 "../../../../../../../verification/xgmii_intf.sv" \
 "../../../../../../../verification/xgmii_top.sv" \
 "../../../../../../../verification/xgmii_tb.sv" \

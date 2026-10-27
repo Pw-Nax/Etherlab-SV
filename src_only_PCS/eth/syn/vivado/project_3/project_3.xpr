@@ -4,10 +4,17 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
+<<<<<<< HEAD
 <Project Product="Vivado" Version="7" Minor="68" Path="D:/ProtCom/Etherlab-SV/src_only_PCS/eth/syn/vivado/project_3/project_3.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="e9710161d68049ab9116a54a585803a6"/>
+=======
+<Project Product="Vivado" Version="7" Minor="68" Path="C:/Users/mauro/Documents/MC/Etherlab-SV/src_only_PCS/eth/syn/vivado/project_3/project_3.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="9923812f0dfe463ea5ed9ccdea0278d6"/>
+>>>>>>> 0c33aa91497ab1c615653adbb494b8f31e0463b0
     <Option Name="Part" Val="xc7a35ticsg324-1L"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -44,7 +51,11 @@
     <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
     <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
     <Option Name="BoardPart" Val="digilentinc.com:arty:part0:1.1"/>
+<<<<<<< HEAD
     <Option Name="BoardPartRepoPaths" Val="C:/Users/mauro/AppData/Roaming/Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store"/>
+=======
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../../../../../AppData/Roaming/Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store"/>
+>>>>>>> 0c33aa91497ab1c615653adbb494b8f31e0463b0
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
@@ -60,7 +71,11 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="arty"/>
+<<<<<<< HEAD
     <Option Name="WTXSimLaunchSim" Val="3"/>
+=======
+    <Option Name="WTXSimLaunchSim" Val="8"/>
+>>>>>>> 0c33aa91497ab1c615653adbb494b8f31e0463b0
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -125,7 +140,11 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+<<<<<<< HEAD
       <File Path="$PPRDIR/../../../verification/xgmii_driv_doc.sv">
+=======
+      <File Path="$PPRDIR/../../../verification/xgmii_driver.sv">
+>>>>>>> 0c33aa91497ab1c615653adbb494b8f31e0463b0
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -139,6 +158,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< HEAD
       <File Path="$PPRDIR/../../../verification/xgmii_driver.sv">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -146,6 +166,8 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+=======
+>>>>>>> 0c33aa91497ab1c615653adbb494b8f31e0463b0
       <File Path="$PPRDIR/../../../verification/xgmii_tb.sv">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
